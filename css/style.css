@@ -181,6 +181,69 @@ main {
     color: rgba(0, 0, 0, .5);
 }
 
+
+/*
+03-03. What our users say
+==========================================================
+*/
+
+.what-our-users-say {
+    padding: 140px 0;
+}
+
+.what-our-users-say-wrapper h4 {
+    font-size: 42px;
+    margin-bottom: 50px;
+    color: #252432;
+}
+
+.reviews {
+    gap: 20px;
+}
+
+.single-review {
+    background-color: #fff;
+    border: 1px solid #F2EDED;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+.ratings {
+    gap: 4px;
+}
+
+.single-review h5,
+.single-review p {
+    color: #1E1E1E;
+}
+
+.single-review h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.reviewed-by {
+    margin-top: 24px;
+    gap: 12px;
+}
+
+.reviewed-by img {
+    border-radius: 50px;
+}
+
+.review-details h6 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+}
+
+.review-details p {
+    color: #B3B3B3;
+    line-height: 1.4;
+}
+
 /*
 04. Footer
 ==========================================================
