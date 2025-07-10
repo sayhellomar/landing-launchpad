@@ -7,7 +7,7 @@
 }
 
 /*
-01. Typography
+01. Typography/Presets
 ==========================================================
 */
 
@@ -38,6 +38,10 @@ body {
     padding: 12px 36px;
     font-size: 16px;
     font-weight: 700;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
     transition: all ease .5s;
 }
 
@@ -45,12 +49,58 @@ body {
     transform: scale(1.1);
 }
 
+.container {
+    max-width: 1140px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
 
 /*
 02. Header
 ==========================================================
 */
 
+header {
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar-wrapper {
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 34px;
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner h2 {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+.banner-wrapper {
+    padding: 160px 120px;
+}
 
 
 /*
@@ -58,8 +108,41 @@ body {
 ==========================================================
 */
 
-.main {
+main {
     background-color: #F5F8FF;
+}
+
+/*
+03-01. See In Action
+==========================================================
+*/
+
+.see-in-action {
+    padding: 116px 0;
+}
+
+.see-in-action-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.see-in-action-wrapper img {
+    border-radius: 48px;
+}
+
+.see-in-action-content {
+    margin-right: 220px;
+}
+
+.see-in-action-content h3 {
+    font-size: 42px;
+}
+
+.see-in-action-content p {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 23px 0;
+    color: rgba(36, 36, 50, .5);
 }
 
 /*
@@ -67,3 +150,42 @@ body {
 ==========================================================
 */
 
+footer {
+    background-color: #fff;
+}
+
+.footer-wrapper {
+    padding: 100px 300px;
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.footer-wrapper p,
+.footer-wrapper nav ul li a {
+    color: #8987A1;
+    font-size: 16px;
+    font-family: var(--secondary-font);
+}
+
+.footer-wrapper p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer-wrapper nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 48px;
+    justify-content: center;
+}
+
+.footer-wrapper nav ul li a {
+    text-decoration: none;
+}
