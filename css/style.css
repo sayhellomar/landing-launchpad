@@ -34,19 +34,30 @@ body {
 }
 
 .btn-pill {
+    font-weight: 700;
+}
+
+.btn-pill-thin {
+    font-weight: 400;
+}
+
+.btn-pill,
+.btn-pill-thin {
     background-color: var(--primary-color);
+    font-family: var(--primary-font);
     padding: 12px 36px;
     font-size: 16px;
-    font-weight: 700;
     border-radius: 10px;
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    transition: all ease .5s;
+    transition: all ease .3s;
 }
 
-.btn-pill:hover {
+.btn-pill:hover,
+.btn-pill-thin:hover {
     transform: scale(1.1);
+    opacity: .9;
 }
 
 .container {
@@ -242,6 +253,37 @@ main {
 .review-details p {
     color: #B3B3B3;
     line-height: 1.4;
+}
+
+
+/*
+03-04. Ready to focus better
+==========================================================
+*/
+
+.focus-better {
+    padding-bottom: 165px;
+}
+
+.focus-better-wrapper {
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 71px 150px;
+}
+
+.focus-better-wrapper h3 {
+    font-size: 50px;
+    color: #000;
+}
+
+.focus-better-wrapper p {
+    color: rgba(0, 0, 0, .5);
+    margin: 20px 0;
+}
+
+.focus-better-wrapper img {
+    border-radius: 48px;
+    margin-top: 20px;
 }
 
 /*
