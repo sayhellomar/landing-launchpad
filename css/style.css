@@ -146,6 +146,42 @@ main {
 }
 
 /*
+03-02. Productive Users
+==========================================================
+*/
+
+.productive-users-wrapper {
+    background-color: rgba(78, 71, 255, .1);
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+
+.productive-users-wrapper h4 {
+    font-size: 38px;
+    color: #252432;
+}
+
+.production-counter {
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.single-counter h2,
+.single-counter p {
+    font-family: var(--secondary-font);
+}
+
+.single-counter h2 {
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+.single-counter p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, .5);
+}
+
+/*
 04. Footer
 ==========================================================
 */
